@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore docs files
 _gh_pages
 _site
@@ -39,3 +40,15 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+=======
+_site/*
+_theme_packages/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+>>>>>>> e88ea5a531a3a443845ce7f90c4b7193d1765102
