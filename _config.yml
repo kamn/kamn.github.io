@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
+title:            kamn.github.io
+tagline:          Code and Stuff
 url:              http://getpoole.com
 paginate:         1
 baseurl:          /
