@@ -19,3 +19,7 @@ github:
 
 markdown:         kramdown
 highlighter:      rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
