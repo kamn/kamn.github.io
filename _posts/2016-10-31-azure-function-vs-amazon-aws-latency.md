@@ -15,6 +15,7 @@ The following are some of my own tests and conclusions.
 I setup the following test code in two Azure Functions.
 
 TestFSharp1
+
 ```fsharp
 open System
 open System.Net;
@@ -28,6 +29,7 @@ let Run (req: HttpRequestMessage, log: TraceWriter) =
 ```
 
 AzureFunctionSpeedTest
+
 ```fsharp
 open System
 open System.IO
