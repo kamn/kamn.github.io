@@ -16,7 +16,7 @@ I setup the following test code in two Azure Functions.
 
 TestFSharp1
 
-~~~fsharp
+~~~ocaml
 open System
 open System.Net;
 open System.Net.Http;
@@ -30,7 +30,7 @@ let Run (req: HttpRequestMessage, log: TraceWriter) =
 
 AzureFunctionSpeedTest
 
-~~~fsharp
+~~~ocaml
 open System
 open System.IO
 open System.Net

@@ -18,8 +18,4 @@ github:
   repo:           https://github.com/kamn/kamn.github.io
 
 markdown:         kramdown
-highlighter:      pygments
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: pygments
+highlighter:      rouge
