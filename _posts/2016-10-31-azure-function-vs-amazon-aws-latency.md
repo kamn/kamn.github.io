@@ -16,7 +16,7 @@ I setup the following test code in two Azure Functions.
 
 TestFSharp1
 
-```fsharp
+~~~fsharp
 open System
 open System.Net;
 open System.Net.Http;
@@ -26,11 +26,11 @@ let Run (req: HttpRequestMessage, log: TraceWriter) =
     let resp = new HttpResponseMessage(HttpStatusCode.OK)
     resp.Content <- new StringContent("Hi")
     resp
-```
+~~~
 
 AzureFunctionSpeedTest
 
-```fsharp
+~~~fsharp
 open System
 open System.IO
 open System.Net
@@ -45,7 +45,7 @@ let Run (req: HttpRequestMessage, log: TraceWriter) =
     let resp = new HttpResponseMessage(HttpStatusCode.OK)
     resp.Content <- new StringContent(stopWatch.Elapsed.TotalMilliseconds.ToString())
     resp
-```
+~~~
 
 Nothing too complex.
 A simple API that returns "Hi" and another one that calls that API and returns the response time.

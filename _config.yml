@@ -17,5 +17,5 @@ version:          0.0.1
 github:
   repo:           https://github.com/kamn/kamn.github.io
 
-markdown:         redcarpet
+markdown:         kramdown
 #highlighter:      pygments
