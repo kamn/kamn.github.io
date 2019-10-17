@@ -19,3 +19,5 @@ github:
 
 markdown:         kramdown
 highlighter:      rouge
+
+theme: jekyll-theme-tactile
