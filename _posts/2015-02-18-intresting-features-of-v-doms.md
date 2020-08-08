@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Interesting Features of Virtual Dom
 ---
 

@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Kamn"
   avatar : "https://secure.gravatar.com/avatar/b25b1c8b992cba54df3b5a9b90b34a99"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Programming is a job but it is also a great hobby."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AWS Lambda vs Azure Function Latency
 ---
 
